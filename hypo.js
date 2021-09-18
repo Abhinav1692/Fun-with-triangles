@@ -15,6 +15,7 @@ function calculateHypo() {
       else
          {  
             var hypo = Math.sqrt(side1**2 + side2**2);
+            hypo=hypo.toFixed(3);
            showMessage("The length of hypotenuse is " + String(hypo));
          }
    }
